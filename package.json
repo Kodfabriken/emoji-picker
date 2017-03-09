@@ -3,13 +3,10 @@
   "title": "Emoji Picker",
   "version": "1.0.0",
   "description": "Add a slick emoji selector to input fields and textareas on your website.",
-  "author": {
-    "name": "Jason Pang @ OneSignal",
-    "url": "https://onesignal.com"
-  },
+  "author": "Jason Pang @ OneSignal (https://onesignal.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/one-signal/emoji-picker"
+    "url": "git+https://github.com/one-signal/emoji-picker.git"
   },
   "licenses": [
     {
@@ -21,9 +18,7 @@
   "engines": {
     "node": "0.10.x"
   },
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "directories": {
     "lib": "./lib"
   },
@@ -37,7 +32,9 @@
     "icons",
     "jquery-plugin"
   ],
-  "bugs": "https://github.com/one-signal/emoji-picker/issues",
+  "bugs": {
+    "url": "https://github.com/one-signal/emoji-picker/issues"
+  },
   "files": [
     "js",
     "css",
@@ -45,5 +42,9 @@
     "LICENSE",
     "README.md",
     "screenshot.png"
-  ]
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
