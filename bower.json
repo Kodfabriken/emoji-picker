@@ -1,0 +1,26 @@
+{
+  "name": "emoji-picker",
+  "homepage": "https://github.com/Kodfabriken/emoji-picker",
+  "authors": [
+  ],
+  "description": "Emoji picker",
+  "moduleType": "globals",
+  "main": [
+    "lib/emoji.css",
+    "lib/nanoscroller.css"
+  ],
+  "keywords": [
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "tasks",
+    "templates",
+    "test",
+    "*.gemspec",
+    "Rakefile",
+    "Gemfile"
+  ],
+  "version": "1.0.0"
+}
+
